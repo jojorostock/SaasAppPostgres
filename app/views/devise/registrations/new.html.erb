@@ -30,8 +30,7 @@
     </div>
     <div class="form-control col-md-6 no-right-padding">
       <%= w.label :plan %>
-      <%= w.select :plan options_for_select(Plan.options, params[:plan]), {}, required: true,
-      class:"form-control"%>
+      <%= w.select :plan, options_for_select(Plan.options, params[:plan]),{}, required: true, class: "form-control" %>
     </div>
   <%end%>
 

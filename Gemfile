@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise'
 
-gem 'milia'
+gem 'milia' 
 
 gem 'twitter-bootstrap-rails'
 

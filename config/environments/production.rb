@@ -5,6 +5,10 @@ Rails.application.configure do
 
   ActionMailer::Base.delivery_method = :smtp
 
+  config.action_mailer.delivery_method = :smtp
+
+  config.action_mailer.default_url_options = { :host => 'jojo-saas-app-postgres.herokuapp.com/', :protocol => 'https'}
+
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
     :port           => '587',

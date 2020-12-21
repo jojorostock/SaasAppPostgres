@@ -35,6 +35,19 @@
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript"></script>
     <![endif]-->
+    <% if current_user %>
+
+<li>
+
+<%= link_to "<i class='fa fa-users'></i> Add Members".html_safe,
+
+new_member_path,
+
+class: 'navbar-link btn btn-primary' %>
+
+</li>
+
+<% end %>
   </head>
   <body>
 

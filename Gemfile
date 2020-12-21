@@ -37,6 +37,9 @@ gem 'devise'
 
 gem 'milia', '~>1.3' 
 
+gem 'aws-sdk'
+
+
 gem 'twitter-bootstrap-rails'
 
 gem 'devise-bootstrap-views'

@@ -40,6 +40,8 @@ gem 'milia', '~>1.3'
 gem 'twitter-bootstrap-rails'
 
 gem 'devise-bootstrap-views'
+
+gem 'bootstrap-datepicker-rails'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 

@@ -1,19 +1,10 @@
-<p id="notice"><%= notice %></p>
+<h3>Artifacts</h3>
 
-<p>
-  <strong>Name:</strong>
-  <%= @artifact.name %>
-</p>
+<%= render 'artifacts/list', artifacts: @project.artifacts %>
 
-<p>
-  <strong>Key:</strong>
-  <%= @artifact.key %>
-</p>
+<br />
 
-<p>
-  <strong>Project:</strong>
-  <%= @artifact.project %>
-</p>
+<br />
 
 <%= link_to 'Edit', edit_artifact_path(@artifact) %> |
 <%= link_to 'Back', artifacts_path %>
